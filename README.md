@@ -36,7 +36,7 @@ We refer to the `requirements.txt` file for an overview of the packages in the e
 ### Setup
 The following files need to be adapted in order to run the code on your own machine:
 - Change the file paths to the datasets in `utils/mypath.py`, e.g. `/content/Unsupervised-Classification/data/cifar10`.
-- Specify the output directory in `configs/env.yml`. All results will be stored under this directory. 
+- Specify the output directory in `configs/myenv.yml`. All results will be stored under this directory. 
 
 Our experimental evaluation includes the following datasets: CIFAR10, CIFAR100-20, STL10 and ImageNet. The ImageNet dataset should be downloaded separately and saved to the path described in `utils/mypath.py`. Other datasets will be downloaded automatically and saved to the correct path when missing.
 
